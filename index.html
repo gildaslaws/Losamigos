@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Resto</title>
+<body>
+<header>
+    <a href="#" class="logo"><span>L</span>os Amigos</a>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <ul class="navbar">
+        <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+        <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+        <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+        <li><a href="#temoignage" onclick="toggleMenu();">Temoignage</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <a href="#" class="btn-reserve"onclick="toggleMenu();">Reservation</a>
+    </ul>
+</header>
+<section class="banniere" id="banniere">
+    <div class="contenu">
+        <h2>REVEILLEZ L'INCA QUI SOMMEILLE EN VOUS</h2>
+        <p>Embarquez pour un voyage culinaire fusion au coeur du Mexique. 
+            Découvrez les racines et la culture vibrante de la cuisine d'Amérique latine.
+            Laissez-vous tenter par nos créations culinaires d'inspiration mexiquaine.</p>
+        <a href="#" class="btn1">Decouvrir le restaurant</a>
+        <a href="#" class="btn2">Reservation</a>
+    </div>
+</section>
+<section class="apropos" id="apropos">
+    <div class="row">
+        <div class="col50">
+            <h2 class="titre-texte"><span>A</span> Propos De Nous</h2>
+            <p>Los Amigos, c'est une expérience gastronomique inédite qui conjugue cuisine traditionnelle mexiquaine et influences
+                asiatiques: un mariage de saveurs étonnantes.
+                Notre carte comporte des plats signatures emblématiques de notre marque mais aussi des assiettes inédites s'inspirant 
+                de la ville et du pays de chacune de nos adresses dans le monde. Los Amigos n'a pas fini de vous surprendre! 
+                Decouvrez une sélection de plats sains et légers dont notre délicieux ceviche, nos fameux tirados et nos généreux 
+                anticuchos... <p>It's a global destination, a culture, a luxury lifestyle. A place where guests are taken on an immersive 
+                journey to Latin America through exceptional, authentic Mexican food, innovative pisco infusions, cultural events and
+                 unforgettable parties.Since bursting onto the scene in London in 2012, Los Amigos has led the way in innovative dining experiences 
+                 across the globe. With venues in Mayfair, Dubai, Abu Dhabi, London City, Monte Carlo, Paris, Marbella, Mykonos, Doha, Riyadh</p>
+            </p>
+        </div>
+        <div class="col50">
+            <div class="img">
+                <img src="./images/plat3.jpg" alt="image">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="menu" id="menu">
+    <div class="titre">
+        <h2 class="titre-texte"><span>M</span>enu</h2>
+        <p>Notre menu est conçu avec soin pour satisfaire tous les palais. Découvrez une sélection de plats savoureux, préparés avec des 
+            ingrédients frais et locaux. Que vous soyez amateur de cuisine traditionnelle ou que vous cherchiez des saveurs exotiques, notre menu saura vous séduire.</p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c2.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Sushi</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c3.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Pizza</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c4.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Filet</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c5.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c6.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c7.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/c8.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Special salade</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div class="titre">
+    <a href="#" class="btn1">Voir Plus</a>
+ </div>
+</section>
+        <section class="formulaire-reservation">
+            <h2 class="titre-texte"><span>R</span>éserver une table au Los Amigos</h2>
+            <form action="#">
+                <div class="champ">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="champ">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="champ">
+                    <label for="nombre_personnes">Nombre de personnes:</label>
+                    <input type="number" id="nombre_personnes" name="nombre_personnes" min="1" required>
+                </div>
+                <div class="champ">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="champ">
+                    <label for="heure">Heure:</label>
+                    <input type="time" id="heure" name="heure" required>
+                </div>
+                <button type="submit">Réserver</button>
+            </form>
+        </section>
+
+        <section class="informations-restaurant">
+            <h2 class="titre-texte"><span>H</span>oraires d'ouverture</h2>
+            <p>Du Lundi au Vendredi: 14h00 - 01h00</p>
+            <p>Samedi & Dimanche: 16h00 - 22h00</p>
+            <p>Pour les réservations : +44 20 3907 0000</p>
+            <p>Email : reservations.ac@losamigosrestaurant.com</p>
+        </section>
+<section class="expert" id="expert">
+    <div class="titre">
+        <h2 class="titre-texte">Nos <span>E</span>xperts</h2>
+        <p> Nos chefs talentueux, sommeliers chevronnés et pâtissiers créatifs travaillent ensemble pour vous offrir 
+            une expérience gastronomique exceptionnelle. Que ce soit pour vous guider dans le choix du vin parfait, 
+            vous surprendre avec des plats innovants ou créer des desserts à tomber par terre, nos experts sont là pour vous servir. </p>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe1.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Chef Grillade Carlos González</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe2.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Chef Étoilé Pierre Dupont</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe3.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Chef Sushi Hiroshi Tanaka </h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/equipe4.jpg" alt="">
+            </div>
+            <div class="text">
+                <h3>Chef Pâtissière Sofia Rodriguez</h3>
+            </div>
+        </div>
+    </div>
+ </div>
+</section>
+ <section class="temoignage" id="temoignage">
+    <div class="titre blanc">
+        <h2 class="titre-texte">Que Disent Nos <span>C</span>lients</h2>
+    </div>
+    <div class="contenu">
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t1.jpeg" alt="">
+            </div>
+            <div class="text">
+                <p>A la mode et incontournable, et non sans raison. Le cadre, l'accueil, la carte, le service : c'est d'une grande cohérence, au-dessus de la moyenne. On se prend à y revenir régulièrement.</p>
+                <h3>Main d'Afrique</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t2.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>A la mode et incontournable, et non sans raison. Le cadre, l'accueil, la carte, le service : c'est d'une grande cohérence, au-dessus de la moyenne. On se prend à y revenir régulièrement.</p>
+                <h3>Franck leroi</h3>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imbox">
+                <img src="./images/t3.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>L'ambiance est très chic et extrêmement classe, mais le personnel est aussi chaleureux et amical. Mon repas était délicieux et servi rapidement. Excellent service.Expérience culinaire à renouveler.</p>
+                <h3>aigri 123</h3>
+            </div>
+        </div>
+    </div>
+ </section>
+ <section class="contact" id="contact">
+     <div class="titre noir">
+         <h2 class="titre-text"><span>C</span>ontact</h2>
+         <p>Adresse : 36 Boulevard des Margaritas, Mexico, Mexique Téléphone : +228 1234 5678 Email : info@losamigos.com</p>
+     </div>
+     <div class="contactform">
+         <h3>Envoyer un message</h3>
+         <div class="inputboite">
+             <input type="text" placeholder="Nom">
+         </div>
+         <div class="inputboite">
+            <input type="text" placeholder="email">
+         </div>
+         <div class="inputboite">
+            <textarea placeholder="message"></textarea>
+         </div>
+         <div class="inputboite">
+             <input type="submit" value="envoyer">
+         </div>
+     </div>
+ </section>
+ <div class="copyright">
+     <p>copyright 2024 <a href="#">LOS AMIGOS-Resto</a> Tous droits reservés</p>
+ </div>
+ <script type="text/javascript">
+     window.addEventListener('scroll', function(){
+         const header =document.querySelector('header');
+         header.classList.toggle("sticky", window.scrollY > 0 );
+     });
+
+     function toggleMenu(){
+         const tmenuToggle = document.querySelector('.menuToggle');
+         const navbar = document.querySelector('.navbar');
+         navbar.classList.toggle('active');
+         menuToggle.classList.toggle('active');
+     }
+ </script>
+</body>
+</html>
